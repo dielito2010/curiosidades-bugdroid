@@ -16,14 +16,13 @@
 			</p>
 		</header>
 		<nav>
-			<a href="#">Home</a>
-			<a href="#">Notícias</a>
-			<a href="#">Curiosidades</a>
-			<a href="#">Fale Conosco</a>
+			<a href="#historia">Home</a>
+			<a href="#video">Vídeos</a>
+			<a href="#extra">Extras</a>
 		</nav>
 		<main>
 			<article>
-				<h1>História do Mascote do Android</h1>
+				<h1 id="historia">História do Mascote do Android</h1>
 				<p>
 					Provavelmente você sabe que o sistema operacional <strong>Android</strong>,
 					mantido pelo <strong>Google</strong> é um dos mais utilizados para
@@ -85,16 +84,18 @@
 					para o lado dos banheiros e a identificação foi imediata: simples, limpo,
 					objetivo.
 				</p>
-				<iframe
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/l2UDgpLz20M"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-				></iframe>
-				<aside>
+				<div class="video" id="video">
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/l2UDgpLz20M"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					></iframe>
+				</div>
+				<aside id="extra">
 					<h3>Quer aprender mais?</h3>
 					<p>
 						Outro assunto curioso em relação ao Android é que cada versão sempre foi
@@ -144,9 +145,9 @@
 				<a href="https://gustavoguanabara.github.io/" target="_blank"
 					>GUSTAVO GUANABARA</a
 				>
-				&nbsp;para o&nbsp;
+				&nbsp;como projeto do&nbsp;
 				<a href="https://cursoemvideo.com" target="_blank">CURSO EM VÍDEO</a>&nbsp;
-				e &nbsp; customizado por:&nbsp;
+				e implementado por&nbsp;
 				<a href="https://danielribeiro.dev.br" target="_blank">DANIEL RIBEIRO</a>
 			</small>
 		</footer>
